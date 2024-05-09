@@ -1,0 +1,28 @@
+
+.container{
+  width: 98%;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.justify-beetween{
+  justify-content: space-between;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.row{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.col{
+  width: calc(100% / 3);
+  padding: 0 10px;
+}
+
+.d-flex{
+  display: flex;
+}
