@@ -12,7 +12,7 @@
             </nav>
           </div>
           <div class="col logo ">
-            <img src="/boolean-logo.png" alt="Logo">
+            <img src="/img/boolean-logo.png" alt="Logo">
           </div>
           <div class="col ">
             <nav>

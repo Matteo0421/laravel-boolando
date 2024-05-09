@@ -1,23 +1,25 @@
 @extends('layout.main')
 
-@section('contect')
+@section('content')
 
 <div class="container">
     <div class="row">
-      <!-- CARD  -->
-      <Productcard
-        v-for="product in db.products"
-        :key="product.id"
-        :productImage="product.frontImage"
-        :secondaryImage="product.backImage"
-        :brand="product.brand"
-        :productName="product.name"
-        :price="product.price"
-        :oldPrice="product.oldPrice"
-      />
-      <!-- /CARD  -->
+        @foreach ($products as $product)
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{{ $product['frontImage'] }}" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="card-title">{{ $product['brand'] }} - {{ $product['name'] }}</h5>
+                    <p class="card-text">Price: ${{ $product['price'] }}</p>
+
+                </div>
+            </div>
+        </div>
+        @endforeach
     </div>
-  </div>
-
-
+</div>
 @endsection
+
+
+
+

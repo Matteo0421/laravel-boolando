@@ -1,3 +1,29 @@
 main{
     padding-top: 120px;
   }
+  .card {
+    margin-bottom: 20px;
+  }.card-images{
+    position: relative;
+    cursor: pointer;
+  }.secondary-image{
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+  }.favourite{
+    position: absolute;
+    background-color: white;
+    top: 20px;
+    right: 0;
+    padding: 21px 14px;
+    &:hover{
+      color: red;
+    }
+  }
+
+
+  .col{
+    width: calc(100% / 3);
+    padding: 0 10px;
+  }
