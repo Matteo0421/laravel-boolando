@@ -2,7 +2,7 @@
     <footer>
       <div class="container">
         <div class="bottom-bar">
-      <div class="row justify-beetween align center d-flex">
+      <div class=" justify-beetween align center d-flex">
         <div class="info">
           <h4>Boolando s.r.l.</h4>
           <!-- nav -->
@@ -23,7 +23,7 @@
         </div>
 
         <div class="social">
-          <span>Trovaci anche su</span>
+          <span class="trovaci">Trovaci anche su</span>
           <!-- nav -->
           <nav class="menu">
             <ul>
